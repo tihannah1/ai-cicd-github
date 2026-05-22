@@ -9,8 +9,10 @@ def add(a: int, b: int) -> int:
 def is_even(n: int) -> bool:
     """Check if a number is even."""
     return n % 2 == 0
-
-
 def reverse_string(s: str) -> str:
     """Reverse a string."""
     return s[::-1]
+
+def multiple (a:int,b:int) -> int:
+    return a*b
+
