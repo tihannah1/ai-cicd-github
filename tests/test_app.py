@@ -28,7 +28,7 @@ class TestMaths:
 
     def test_multiply_zero(self):
         """Test zero multiplication."""
-        assert multiply(9, 9) == 18
+        assert multiply(5, 0) == 0
 
     def test_multiply_two_negatives(self):
         """Test multiplying two negative numbers."""
