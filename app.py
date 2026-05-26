@@ -13,6 +13,7 @@ def reverse_string(s: str) -> str:
     """Reverse a string."""
     return s[::-1]
 
-def multiple (a:int,b:int) -> int:
-    return a*b
+def multiply(a,b):
+    """Mutliply the two integer a and b"""
+    return a * b
 
